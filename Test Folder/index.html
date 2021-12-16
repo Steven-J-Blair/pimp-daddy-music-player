@@ -1,0 +1,17 @@
+﻿<!doctype html>
+<html>
+<head>
+<style></style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.0.52/wavesurfer.min.js">
+var wavesurfer = WaveSurfer.create({
+    container: '#waveform',
+    waveColor: 'violet',
+    progressColor: 'purple'
+});
+wavesurfer.load('audio.wav');
+</script>
+</head>
+<body>
+<div id="waveform"></div>
+</body>
+</html>
