@@ -1,5 +1,5 @@
  // Set your audio file URL here (can be MP3 or MP4)
- const AUDIO_URL = 'https://youtu.be/tPDtiMKL0sQ?si=j1oNWJvm__lv9waD';
+ const AUDIO_URL = 'WP Samples.mp3/Dragon Lore-WP Sample.mp3';
 
  const audioElement = document.getElementById('audio-element');
  const playPauseButton = document.getElementById('play-pause');
