@@ -1,5 +1,5 @@
  // Set your audio file URL here (can be MP3 or MP4)
- const AUDIO_URL = 'https://example.com/path/to/your/audio.mp3';
+ const AUDIO_URL = 'https://youtu.be/tPDtiMKL0sQ?si=j1oNWJvm__lv9waD';
 
  const audioElement = document.getElementById('audio-element');
  const playPauseButton = document.getElementById('play-pause');
