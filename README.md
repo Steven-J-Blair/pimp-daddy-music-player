@@ -1,5 +1,5 @@
-# pimp-daddy-music-player 
-[https://642dd1a52e2d121f4d78d510--transcendent-frangipane-98cd9d.netlify.app/]
+# pimp-daddy-music-player
+[(https://transcendent-frangipane-98cd9d.netlify.app)]
 There are many very nice open source audio players/embeddable html projects but none of them have everything I need. I want/need to build a custom player that can be used whether your a producer selling beats or an artist selling your original songs. It needs to be able to accept crypto payments!
 
 Most music players are pretty basic and they all look pretty much the same. I want something that actually looks like an old analog reciever/some kind of web 3 modern upated version. Think 2045 mercedes benz....lmao
