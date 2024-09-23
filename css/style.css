@@ -1,143 +1,32 @@
-#body{
-    background-color:white;
-    align-content: center;
-    border-color:#101010;
-    width:100%;
-    height:300px;
+.player-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
-
-#wrapper {
-    background-image: url(../images/playerbackground.jpg);
-    background-size: 600px; 
-    border-radius:5px;
-    margin-right: auto; /* 1 */
-    margin-left:  auto; /* 1 */
-    max-width: 600px; /* 2 */
-    padding-right: 30px; /* 3 */
-    padding-left:  30px; /* 3 */
-    padding-top: 30px; /* 3 */
-    padding-bottom:  30px; /* 3 */
-
+.progress-bar {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
 }
-
-#flex-container {
-    display: flex;        /* Flex layout so items have equal height  */
-    flex-flow: row wrap;  /* Allow items to wrap into multiple lines */
-  }
-  .flex-item {
-    display: flex;        /* Lay out each item using flex layout */
-    flex-flow: row;    /* Lay out item’s contents vertically  */
-  }
-  .flex-item > img {
-    order: -1;            /* Shift image before other content (in visual order) */
-    align-self: center;   /* Center the image cross-wise (horizontally)         */
-  }
-  .flex-item > button {
-    margin-top: auto;     /* Auto top margin pushes button to bottom */
-  }
-
-.flex-container {
-    align-content: center;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: space-between;
-    
+.progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px; 
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
 }
-
-.flex-item1 {
-    background-color:none;
-    -webkit-align-self: left;
-    align-self: left;
-    -webkit-flex: 2;
+.progress-bar::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
 }
-
-.flex-item2 {
-    background-color:none;
-    -webkit-align-self: center;
-    align-self: center;
-    -webkit-flex: 2; 
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-}
-
-.flex-item3 {
-    background-color:none;
-    -webkit-align-self: right;
-    align-self: right;
-    -webkit-flex: 2;
-    padding-left: 475px;
-    padding-top: 220px;
-    padding-bottom:25px;
-    margin-bottom: auto;
-}
-
-#playButton{
-    background-color:rgb(250,250,250);
-    border-radius:32px;
-    height:32px;
-    width:32px;
-    background-image:url(../images/playbutton.png);
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-#pauseButton{
-    background-color:rgb(250,250,250);
-    border-radius:32px;
-    height:32px;
-    width:32px;
-    background-image:url(../images/pausebutton.png);
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-#prevButton{
-    background-color:rgb(250,250,250);
-    border-radius:32px;
-    height:32px;
-    width:32px;
-    background-image:url(../images/prevbutton.png);
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-#nextButton{
-    background-color:rgb(250,250,250);
-    border-radius:32px;
-    height:32px;
-    width:32px;
-    background-image:url(../images/nextbutton.png);
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-#knob{
-    background-color:rgb(250,250,250);
-    border-radius:150px;
-    height:150px;
-    width:150px;
-    background-image:url(../images/metalknob.jpg);
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-#speaker{
-    background-color:rgb(250,250,250);
-    border-radius:500px;
-    height:205px;
-    width:205px;
-    background-image:url(../images/speaker.png);
-    background-repeat:no-repeat;
-    background-position:center;
-}
-
-.play{background: url('../images/playbutton.png') no-repeat;}
-.pause{background: url('../images/pausebutton.png') no-repeat;}
-.prev{background: url('../images/prevbutton.png') no-repeat;}
-.next{background: url('../images/nextbutton2.png') no-repeat;}
-.speaker{background: url('../images/speaker.png') no-repeat;}
-
 
 
 
