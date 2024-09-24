@@ -1,3 +1,9 @@
+audioElement.addEventListener('loadedmetadata', function() {
+    console.log('Audio metadata loaded');
+    updateDuration();
+    titleDiv.textContent = audioElement.src.split('/').pop();
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     const audioElement = document.getElementById('audio-element');
     const playPauseButton = document.getElementById('play-pause');
