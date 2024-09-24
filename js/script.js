@@ -9,7 +9,7 @@
  const titleDiv = document.getElementById('title');
 
  audioElement.src = AUDIO_URL;
- titleDiv.textContent = "Your Audio Title"; // Set your audio title here
+ titleDiv.textContent = "audio"; // Set your audio title here
 
  playPauseButton.addEventListener('click', togglePlayPause);
  progressBar.addEventListener('input', seekTo);
