@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const durationSpan = document.getElementById('duration');
 
     // Set the audio source (replace with your actual audio file URL)
-    audioElement.src = 'path/to/your/audio/file.mp3';
+    audioElement.src = 'WP Samples.mp3/Dragon Lore-WP Sample.mp3';
 
     playPauseButton.addEventListener('click', togglePlayPause);
     progressBar.addEventListener('input', seekTo);
