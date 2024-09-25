@@ -1,12 +1,11 @@
 .player-container {
     background: linear-gradient(135deg, #000000 40%, #98027c 60%);
     align-items: center;
-    justify-items: inline-grid;
-}
-
-.main-container {
+    justify-self: inline-grid;
     margin: auto;
 }
+
+
 
 .progress-bar {
     -webkit-appearance: none;
