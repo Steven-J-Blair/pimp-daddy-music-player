@@ -1,5 +1,5 @@
 .player-container {
-    background: linear-gradient(135deg, #000000 030%, #9f0202 70%);
+    background: linear-gradient(135deg, #000000 70%, #2fff00 30%);
 }
 .progress-bar {
     -webkit-appearance: none;
