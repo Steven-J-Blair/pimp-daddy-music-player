@@ -1,5 +1,7 @@
 .player-container {
     background: linear-gradient(135deg, #000000 30%, #98027c 70%);
+    max-width: 800px;
+    max-height: 400px;
 }
 .progress-bar {
     -webkit-appearance: none;
