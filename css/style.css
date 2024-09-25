@@ -1,9 +1,12 @@
 .player-container {
     background: linear-gradient(135deg, #000000 40%, #98027c 60%);
     align-items: center;
-    align-self: center;
-    position: fixed;
 }
+
+.div {
+    text-align: center;
+}
+
 .progress-bar {
     -webkit-appearance: none;
     width: 100%;
