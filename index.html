@@ -11,7 +11,7 @@
  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-   <center><h1>[P.D.M.P.] IS UNDER DEVELOPMENT! 💻 JUST KEEP YOUR PANTS ON! 😜</h1></center>
+   <center><h1>[P.D.M.P.] IS UNDER DEVELOPMENT! 💻 JUST KEEP YOUR PANTS ON! 🤘 😎 😜</h1></center>
 
    <div class="main-container bg-gray-100 flex h-screen">
     <div class="left-section w-1/4 p-4">
@@ -22,23 +22,23 @@
     </div>
     <div class="center-section w-2/4 flex items-center justify-center">
         <!-- Player will go here -->
-        <div id="title" class="text-lg font-bold mb-4 text-center">[P.D.M.P] 🤘 😎 😝</div>
-        <div class="flex-item-center"></div>
-           <audio id="audio-element" style="display: none;">
-               <source src="music/highpriestess.mp3" type="audio/mpeg">
-               Your browser does not support the audio element.
-           </audio>
-          </div>
-       <div>
-           <div class="flex-item-left">
-               <button id="play-pause" class="bg-black-100 text-purple-600 px-4 py-2 rounded-full mr-4 hover:bg-purple-100 transition-colors duration-300">
-                   <!-- SVG content -->
-               </button>
-               <input type="range" id="progress" min="0" max="100" value="0" class="progress-bar w-full">
-           <div class="flex justify-between text-sm text-gray-200">
-               <span id="current-time">0:00</span>
-               <span id="duration">0:00</span>
-           </div>
+        <audio id="audio-element" style="display: none;">
+            <source src="music/highpriestess.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div>
+        <div class="flex items-center mb-4">
+            <button id="play-pause" class="bg-purple text-black-600 px-4 py-2 rounded-full mr-4 hover:bg-purple-100 transition-colors duration-300">
+                <!-- SVG content -->
+            </button>
+            <input type="range" id="progress" min="0" max="100" value="0" class="progress-bar w-full">
+        </div>
+        <div class="flex justify-between text-sm text-gray-200">
+            <span id="current-time">0:00</span>
+            <span id="duration">0:00</span>
+        </div>
+    </div>
     </div>
     <div class="right-section w-1/4 p-4">
         <!-- Right section content -->
