@@ -2,10 +2,6 @@ body {
     text-align: center;
 }
 
-.h1 {
-    text-align: center;
-}
-
 .player-container {
     background: linear-gradient(135deg, #000000 40%, #98027c 60%);
     align-items: center;
@@ -40,9 +36,6 @@ body {
     cursor: pointer;
 }
 
-.footer {
-    align-self: center;
-}
 
 
 
