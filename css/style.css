@@ -1,3 +1,26 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background: #000; /* or your preferred background color */
+    color: #fff; /* or your preferred text color */
+    text-align: center;
+    padding: 10px 0;
+}
+
+
 .player-container {
     background: linear-gradient(135deg, #000000 40%, #98027c 60%);
     text-align: center;
