@@ -65,8 +65,6 @@ footer {
     transition: opacity .2s;
 }
 .progress-bar::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
     width: 15px;
     height: 15px;
     border-radius: 50%;
